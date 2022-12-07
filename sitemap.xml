@@ -1,47 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!--  created with sitemap generator https://octopus.do  -->
-
-    <url>
-        <loc>https://goldsrcfreeman.github.io</loc>
-        <lastmod>2022-12-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://goldsrcfreeman.github.io/articles_list.html</loc>
-        <lastmod>2022-12-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://goldsrcfreeman.github.io/misc2_list.html</loc>
-        <lastmod>2022-12-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://goldsrcfreeman.github.io/article1.html</loc>
-        <lastmod>2022-12-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://goldsrcfreeman.github.io/misc2_articles_list.html</loc>
-        <lastmod>2022-12-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://goldsrcfreeman.github.io/spook1.html</loc>
-        <lastmod>2022-12-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://goldsrcfreeman.github.io/spook2.html</loc>
-        <lastmod>2022-12-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://goldsrcfreeman.github.io/</loc>
+	<lastmod>2022-12-07T19:34:33+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://goldsrcfreeman.github.io/articles_list.html</loc>
+	<lastmod>2022-12-07T19:34:33+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://goldsrcfreeman.github.io/misc2_list.html</loc>
+	<lastmod>2022-12-07T19:34:33+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://goldsrcfreeman.github.io/article1.html</loc>
+	<lastmod>2022-12-07T19:34:33+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://goldsrcfreeman.github.io/misc2_articles_list.html</loc>
+	<lastmod>2022-12-07T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://goldsrcfreeman.github.io/spook1.html</loc>
+	<lastmod>2022-12-07T19:34:36+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://goldsrcfreeman.github.io/spook2.html</loc>
+	<lastmod>2022-12-07T19:34:36+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
 </urlset>
