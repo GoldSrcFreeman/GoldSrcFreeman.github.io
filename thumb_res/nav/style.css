@@ -70,10 +70,10 @@ td.navi {
    font-size: 12px;
    padding: 10px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     table tr td {
         display: block;
-        width: 100%;
+        width: 85%;
         box-sizing: border-box;
         float: auto;
 /*background-color:rgba(99, 42, 42, 0.9);*/
@@ -81,7 +81,7 @@ td.navi {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     td.thumbs {
         display: block;
         width: 85%;
@@ -92,7 +92,7 @@ width: 12em;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     table.outertable {
         /*display: block;*/
         width: auto;
