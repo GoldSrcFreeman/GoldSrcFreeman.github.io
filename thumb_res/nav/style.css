@@ -17,11 +17,12 @@ img {
 }
 table {
  /*background: #362a2a;*/
-background-color:rgba(54, 42, 42, 0.55);
+/*background-color:rgba(54, 42, 42, 0.55);*/
  border: none;
  border-collapse: collapse;
  margin-left: auto;
  margin-right: auto;
+
 }
 div.center {
  width: auto;
@@ -31,7 +32,12 @@ div.center {
 }
 table.outertable {
    border: 1px solid #b1b13c;
+
+background-color: rgb(55 42 42 / 0.55);
+/*background-color: rgb(100 100 100 / 0.6);*/
 }
+
+
 th.header {
    background: url(header.png);
    color: #64643c;
@@ -58,8 +64,41 @@ td.thumbs {
    width: 10em;
    vertical-align: baseline;
    padding: 10px 5px 5px 5px;
+
 }
 td.navi {
    font-size: 12px;
    padding: 10px;
 }
+@media only screen and (max-width: 800px) {
+    table tr td {
+        display: block;
+        width: 85%;
+        box-sizing: border-box;
+        float: auto;
+/*background-color:rgba(99, 42, 42, 0.9);*/
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    td.thumbs {
+        display: block;
+        width: 85%;
+        box-sizing: border-box;
+        float: right;
+
+width: 12em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    table.outertable {
+        /*display: block;*/
+        width: auto;
+        /*box-sizing: border-box;*/
+        float: left;
+
+    }
+}
+
