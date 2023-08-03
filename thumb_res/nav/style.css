@@ -70,7 +70,7 @@ td.navi {
    font-size: 12px;
    padding: 10px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     table tr td {
         display: block;
         width: 100%;
@@ -81,7 +81,7 @@ td.navi {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     td.thumbs {
         display: block;
         width: 85%;
@@ -92,7 +92,7 @@ width: 12em;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     table.outertable {
         /*display: block;*/
         width: auto;
