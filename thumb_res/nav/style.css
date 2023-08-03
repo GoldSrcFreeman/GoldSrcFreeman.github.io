@@ -73,7 +73,7 @@ td.navi {
 @media screen and (max-width: 500px) {
     table tr td {
         display: block;
-        width: 85%;
+        width: 100%;
         box-sizing: border-box;
         float: auto;
 /*background-color:rgba(99, 42, 42, 0.9);*/
