@@ -1,19 +1,27 @@
-<form name="newForm" action="poo" method="POST" onsubmit="get_action(this);">
-  <div>
-    <label for="say">text</label>
-    <input name="say" id="say" value="Hi" />
-  </div>
-  <div>
-    <label for="to">key</label>
-    <input name="to" id="to" value="Mom" />
-  </div>
-  <div>
-    <button>Send</button>
-  </div>
+<form method="post" onsubmit="submitForm(event, this)">
+    <input name="formName" type="text" />
+    <input name="formName2" type="text" />
+    <input name="formSubmit" type="submit" value="Submit Me!" />
 </form>
 
 <script type="text/javascript">
-    function get_action(form) {
-        form.action = document.getElementById("to").value +  document.getElementById("say").value;
-    }
+  function submitForm(e, form){
+    e.preventDefault();
+    
+    fetch(form.formName.value, {
+      method: 'post',
+      body: JSON.stringify(form.formName2.value)
+    }).then(function(response) {
+      return response.json();
+    }).then(function(data) {
+      //Success code goes here
+      alert('form submited')
+    }).catch(function(err) {
+      //Failure
+      alert('Error')
+    });
+}
+	
+	
+
 </script>
